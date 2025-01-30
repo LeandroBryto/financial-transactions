@@ -32,4 +32,12 @@ public class TransacaoService {
 
         listaTransacoes.add(dto);
     }
+    public void limparTransacoes(){
+        listaTransacoes.clear();
+    }
+    public List<TransacaoRequestDTO> buscarTransacoes(Integer intervaloBusca){
+        OffsetDateTime dataHoraIntevalo = OffsetDateTime.now().minusSeconds(intervaloBusca);
+        return listaTransacoes.stream().filter(transacoes -> transacoes.dataHora().isAfter(dataHoraIntevalo)).toList();
+
+    }
 }
