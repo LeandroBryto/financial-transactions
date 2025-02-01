@@ -1,6 +1,6 @@
 # Transação 
 
-A **Transação ** é uma aplicação construída com o objetivo de gerenciar transações financeiras, permitindo adicionar, consultar e excluir transações, bem como calcular estatísticas dessas transações.
+A **Transação** é uma aplicação construída com o objetivo de gerenciar transações financeiras, permitindo adicionar, consultar e excluir transações, bem como calcular estatísticas dessas transações.
 
 ## Tecnologias Utilizadas
 
