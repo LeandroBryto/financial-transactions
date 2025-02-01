@@ -1,6 +1,6 @@
-# Transação API
+# Transação 
 
-A **Transação API** é uma aplicação construída com o objetivo de gerenciar transações financeiras, permitindo adicionar, consultar e excluir transações, bem como calcular estatísticas dessas transações.
+A **Transação ** é uma aplicação construída com o objetivo de gerenciar transações financeiras, permitindo adicionar, consultar e excluir transações, bem como calcular estatísticas dessas transações.
 
 ## Tecnologias Utilizadas
 
@@ -10,7 +10,7 @@ A **Transação API** é uma aplicação construída com o objetivo de gerenciar
 - **Spring Actuator**: Para monitoramento da aplicação.
 - **Swagger (OpenAPI)**: Usado para gerar a documentação interativa da API.
 - **Lombok**: Para reduzir a verbosidade do código e gerar automaticamente getters, setters, `toString`, `hashCode`, `equals` e outros.
-- **JUnit 5**: Framework utilizado para realizar testes automatizados da aplicação.
+
 
 ## Endpoints
 
@@ -49,5 +49,4 @@ A **Transação API** é uma aplicação construída com o objetivo de gerenciar
   - `400 Bad Request`: Erro de requisição.
   - `500 Internal Server Error`: Erro interno do servidor.
 
-## Estrutura de Diretórios
 
