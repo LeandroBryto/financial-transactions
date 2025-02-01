@@ -31,11 +31,15 @@ public class TransacaoService {
         }
 
         listaTransacoes.add(dto);
+        log.info("transacaoes adicionadas com sucesso ");
     }
     public void limparTransacoes(){
+        log.info("Iniciado processomento para deletar transações");
         listaTransacoes.clear();
+        log.info("Transaçãoes deletadas com sucesso");
     }
     public List<TransacaoRequestDTO> buscarTransacoes(Integer intervaloBusca){
+        log.info("Iniciado busca de transaçãos por tempo " + intervaloBusca);
         OffsetDateTime dataHoraIntevalo = OffsetDateTime.now().minusSeconds(intervaloBusca);
         return listaTransacoes.stream().filter(transacoes -> transacoes.dataHora().isAfter(dataHoraIntevalo)).toList();
 
