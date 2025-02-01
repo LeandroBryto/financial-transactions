@@ -7,7 +7,6 @@ A **aplicação** foi desenvolvida para gerenciar transações financeiras, perm
 - **Java 17**: A linguagem de programação utilizada para o desenvolvimento da API.
 - **Spring Boot 3.4.2**: Framework utilizado para criar a aplicação de forma eficiente, com foco em microserviços.
 - **Spring Web**: Responsável pela criação dos endpoints REST.
-- **Spring Actuator**: Para monitoramento da aplicação.
 - **Swagger (OpenAPI)**: Usado para gerar a documentação interativa da API.
 - **Lombok**: Para reduzir a verbosidade do código e gerar automaticamente getters, setters, `toString`, `hashCode`, `equals` e outros.
 
